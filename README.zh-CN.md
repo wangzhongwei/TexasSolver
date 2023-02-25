@@ -191,3 +191,37 @@ cd ../install
 # Email
 
 icybee@yeah.net
+
+
+
+MacOS
+Got it built, here's what I had to do:
+
+Install llvm through brew
+Tell cmake to use that:
+export CC=/opt/homebrew/opt/llvm/bin/clang
+export CXX=/opt/homebrew/opt/llvm/bin/clang++
+export LDFLAGS="-L/opt/homebrew/opt/llvm/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/llvm/include"
+Tell it where to find the standard lib:
+export LIBRARY_PATH="$LIBRARY_PATH:/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib"
+cmake -> make
+
+Linux
+若gcc版小于5，执行
+sudo yum install centos-release-scl
+sudo yum install devtoolset-7-gcc*
+scl enable devtoolset-7 bash
+
+cmake版本
+wget https://cmake.org/files/v3.15/cmake-3.15.3.tar.gz
+tar -xzvf cmake-3.15.3.tar.gz
+cd cmake-3.15.3/
+# Compile and install
+cd cmake-3.15.3/ && ./bootstrap
+cd cmake-3.15.3/ && make -j4
+cd cmake-3.15.3/ &&  sudo make install
+# Movement path
+cd cmake-3.15.3/ && sudo cp ./bin/cmake /usr/bin/
+# Verify the installation result
+cmake --version
