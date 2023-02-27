@@ -91,6 +91,7 @@ public:
             int num_threads
     );
     void train() override;
+    void stop() override;
     json dumps(bool with_status,int depth);
 private:
     vector<vector<PrivateCards>> ranges;
@@ -100,6 +101,8 @@ private:
     uint64_t initial_board_long;
     shared_ptr<Compairer> compairer;
     int color_iso_offset[52 * 52 * 2][4] = {0};
+    bool collecting_statics = false;
+    bool statics_collected = false;
 
     Deck deck;
     RiverRangeManager rrm;
@@ -119,6 +122,7 @@ private:
     bool distributing_task;
     float accuracy;
     bool use_isomorphism;
+    bool nowstop = false;
 
     const vector<PrivateCards>& playerHands(int player);
     vector<vector<float>> getReachProbs();

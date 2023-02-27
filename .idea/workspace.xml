@@ -3,37 +3,32 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="bindSolver" targetName="TexasSolver" />
-      <config projectName="bindSolver" targetName="test" />
-      <config projectName="bindSolver" targetName="gtest" />
-      <config projectName="bindSolver" targetName="console_solver" />
-      <config projectName="bindSolver" targetName="gtest_main" />
-      <config projectName="bindSolver" targetName="fmt" />
-    </generated>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-D CMAKE_CXX_COMPILER=/usr/local/Cellar/gcc@7/7.5.0_3/bin/g++-7 -D CMAKE_C_COMPILER=/usr/local/Cellar/gcc@7/7.5.0_3/bin/gcc-7" ENABLED="true" />
-      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_OPTIONS="-D CMAKE_CXX_COMPILER=/usr/local/Cellar/gcc@7/7.5.0_3/bin/g++-7 -D CMAKE_C_COMPILER=/usr/local/Cellar/gcc@7/7.5.0_3/bin/gcc-7" ENABLED="true" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-D CMAKE_CXX_COMPILER=/usr/local/Cellar/gcc@7/7.5.0_3/bin/g++-7 -D CMAKE_C_COMPILER=/usr/local/Cellar/gcc@7/7.5.0_3/bin/gcc-7" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" GENERATION_OPTIONS="-D CMAKE_CXX_COMPILER=/usr/local/Cellar/gcc@7/7.5.0_3/bin/g++-7 -D CMAKE_C_COMPILER=/usr/local/Cellar/gcc@7/7.5.0_3/bin/gcc-7" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4738a0c2-febf-47b1-900f-4b0a2f98224d" name="Default Changelist" comment="">
+    <list default="true" id="4738a0c2-febf-47b1-900f-4b0a2f98224d" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/tools/CommandLineTool.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/tools/CommandLineTool.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/card5_dic_sorted_shortdeck.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/general_rule.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/python/TreeBuilder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/python/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/include/tools/argparse.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/python/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/install/tree.km" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/outputs/outputs_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/outputs/outputs_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/console.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/console.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tools/CommandLineTool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/CommandLineTool.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/solver/PCfrSolver.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/solver/PCfrSolver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/solver/Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/solver/Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/trainable/DiscountedCfrTrainable.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/trainable/DiscountedCfrTrainable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/trainable/Trainable.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/trainable/Trainable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solver/PCfrSolver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/PCfrSolver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trainable/DiscountedCfrTrainable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/trainable/DiscountedCfrTrainable.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,6 @@
     <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,89 +50,62 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1q92zUspTDEecRaMhKziOtPjw47" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="cf.advertisement.text.has.clang-format" value="true" />
-    <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/text" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wzw/Documents/workspace/cpp/TexasSolver/install&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/install" />
       <recent name="$PROJECT_DIR$/resources/text" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.console_solver from file">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bindSolver" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bindSolver" RUN_TARGET_NAME="test" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TexasSolver" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bindSolver" TARGET_NAME="TexasSolver" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="console_solver from file" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-i ../resources/text/commandline_sample_input.txt -r ../resources" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bindSolver" TARGET_NAME="console_solver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bindSolver" RUN_TARGET_NAME="console_solver">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="CMake.Install" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="console_solver" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS=" -r ../resources" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="../resources/text/commandline_sample_input.txt" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bindSolver" TARGET_NAME="console_solver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bindSolver" RUN_TARGET_NAME="console_solver">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="CMake.Install" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fmt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bindSolver" TARGET_NAME="fmt" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bindSolver" TARGET_NAME="gtest" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bindSolver" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake 应用程序.console_solver">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="console_solver from file" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-i ../resources/text/commandline_sample_input.txt -r ../resources" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="console_solver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="console_solver">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CMake.Install" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="console_solver" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS=" -r ../resources" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="../resources/text/commandline_sample_input.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="console_solver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="console_solver">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CMake.Install" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="CMake Application.TexasSolver" />
-      <item itemvalue="CMake Application.fmt" />
-      <item itemvalue="CMake Application.gtest" />
-      <item itemvalue="CMake Application.gtest_main" />
-      <item itemvalue="CMake Application.console_solver" />
-      <item itemvalue="CMake Application.console_solver from file" />
-      <item itemvalue="Google Test.test" />
+      <item itemvalue="CMake 应用程序.console_solver" />
+      <item itemvalue="CMake 应用程序.console_solver from file" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -166,7 +133,20 @@
       <workItem from="1624368052841" duration="16403000" />
       <workItem from="1626431779319" duration="16403000" />
       <workItem from="1627958552020" duration="11949000" />
+      <workItem from="1677302762773" duration="4000" />
+      <workItem from="1677302781980" duration="988000" />
+      <workItem from="1677304775132" duration="1098000" />
+      <workItem from="1677306187420" duration="217000" />
+      <workItem from="1677494452423" duration="2952000" />
     </task>
+    <task id="LOCAL-00001" summary="Default Changelist">
+      <created>1677306283469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677306283469</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +162,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
 </project>
